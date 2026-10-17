@@ -1,0 +1,58 @@
+# LINUX SYSTEM ADMINISTRATION VERIFICATION COMMANDS
+
+## SERVER HEALTH
+
+uptime
+free -h
+df -hT
+systemctl --failed
+
+## NETWORKING
+
+ip -br addr
+ip route
+getent hosts google.com
+
+## SSH
+
+systemctl status sshd 
+ss -tulnp
+
+## NGINX
+
+systemctl status nginx 
+nginx -t
+curl -I http://localhost:8080
+
+## STORAGE
+
+lsblk -f
+pvs
+vgs
+lvs
+findmnt /data/project
+
+## PERMISSIONS
+
+id
+ls -l
+getfacl
+namei -l
+
+## SECURITY
+
+systemctl status firewalld 
+firewall-cmd --get-active-zones
+getenforce
+sestatus
+
+## LOGS
+
+journalctl -p err -b 
+journalctl -u nginx -n 30 
+
+## NOTE
+
+These commands are for reference and verification.
+Run commands appropriate to the actual system configuration.
+Use sudo where required.
