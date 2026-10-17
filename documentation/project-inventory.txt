@@ -1,0 +1,46 @@
+# Linux System Administration Project
+
+## LAB ENVIRONMENT
+
+Operating System: Oracle Linux Server 8.10
+Virtualization: Oracle VirtualBox
+Server Hostname: linux-srv01
+
+## PROJECT AREAS
+
+1. Linux users and groups
+2. File and directory permissions
+3. Access Control Lists (ACL)
+4. SUID, SGID and Sticky Bit
+5. LVM and XFS storage management
+6. Persistent filesystem mounts
+7. Networking and DNS troubleshooting
+8. SSH administration
+9. systemd service management
+10. System logs and monitoring
+11. Cron and Bash automation
+12. Nginx web server administration
+13. Firewalld and SELinux
+14. Server health checks
+15. Troubleshooting and verification
+
+## STORAGE
+
+Project mount point: /data/project
+Intended filesystem: XFS
+Storage management: LVM
+
+## WEB SERVER
+
+Service: Nginx
+Configured project port: 8080
+
+## PURPOSE
+
+Build practical Linux System Administration skills through
+hands-on configuration, verification and troubleshooting.
+
+## NOTE
+
+This file describes the project scope. Verify the actual
+system configuration before claiming successful implementation.
